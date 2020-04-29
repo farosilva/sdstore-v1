@@ -199,7 +199,7 @@ class CheckoutController extends Controller
             'notificationURL' => env('APP_URL').'api/notifications/pagseguro',
             'reference' => '',
             'senderName' => auth()->user()->full_name,
-            'senderCPF' => auth()->user()->cpf_cnpj,
+            'senderCPF' => str_pad(auth()->user()->cpf_cnpj,11,0,STR_PAD_LEFT),
             'senderAreaCode' => substr(auth()->user()->contacts->first()->phone_1, 0, 2),
             'senderPhone' => substr(auth()->user()->contacts->first()->phone_1, 2, strlen(auth()->user()->contacts->first()->phone_1)),
             // 'senderEmail' => auth()->user()->email,

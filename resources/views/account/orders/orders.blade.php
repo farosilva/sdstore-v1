@@ -35,7 +35,7 @@
                                     <p class="mb-0">{{ @$order->order_date->format('d/m/Y') }}</p>
                                     <p class="mb-0">{{ formatMoney(@$order->value) }}</p>
                                     <p class="mb-0">{{ @$order->payment->payment_label }}</p>
-                                    <h5 class="mt-2 mb-0"><span class="badge badge-second">{{ ($order->payment->infos->last()->status_label) ?? 'Processando' }}</span></h5 class="mt-2 mb-0">
+                                    <h5 class="mt-2 mb-0"><span class="badge badge-second"></span></h5 class="mt-2 mb-0">
                                 </div>
                                 <div class="col-3 d-flex align-items-center justify-content-center">
                                     <a href="{{ route('my-account.orders.order', ['order' => $order->order_ref]) }}" class="btn btn-lg rounded-circle no-focus">
