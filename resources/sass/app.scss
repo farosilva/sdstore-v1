@@ -1,0 +1,33 @@
+// Fonts
+@import 'fonts';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Animate
+@import '~animate-scss/animate';
+
+// Material Design Icons
+@import '~@mdi/font/scss/materialdesignicons';
+@import '~@mdi/light-font/scss/materialdesignicons-light';
+
+// Snotify
+@import '~vue-snotify/styles/material.scss';
+
+// Sweet Alert
+@import '~sweetalert2/dist/sweetalert2.min.css';
+
+// Vue Slick Carousel Theme
+@import '~vue-slick-carousel/dist/vue-slick-carousel.css';
+@import '~vue-slick-carousel/dist/vue-slick-carousel-theme.css';
+
+@import '~slick-carousel/slick/slick.css';
+
+// Utilities
+@import 'utilities';
+
+// Style
+@import 'style';

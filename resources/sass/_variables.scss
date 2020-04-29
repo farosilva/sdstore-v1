@@ -1,0 +1,31 @@
+// Body
+// $body-bg: #f5f5f5;
+$body-bg: white;
+
+// Typography
+$font-family-sans-serif: 'Panton Light';
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+
+// Options
+$enable-gradients: true;
+$enable-shadows: false;
+$enable-responsive-font-sizes: true;
+
+$btn-border-radius: 0;
+$btn-border-radius-sm: 0;
+$btn-border-radius-lg: 0;
+
+// Colors
+$sdfirst: #bed62f;
+$sdsecond: #f36f21;
+$dark-transp: #000000bb;
+
+// Theme Colors
+$theme-colors: (
+  "first": $sdfirst,
+  "second": $sdsecond,
+  "white": white,
+  "transparent": transparent,
+  "dark-transp": $dark-transp,
+);
