@@ -4,6 +4,7 @@
         <img class="img-fluid" src="/images/banner/home/banner_2.jpg" alt="Banner 2">
         <img class="img-fluid" src="/images/banner/home/banner_3.jpg" alt="Banner 3">
         <img class="img-fluid" src="/images/banner/home/banner_4.jpg" alt="Banner 4">
+        <img class="img-fluid" src="/images/banner/home/banner_5.jpg" alt="Banner 5">
     </VueSlickCarousel>
 </template>
 

@@ -7141,6 +7141,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -60627,6 +60628,11 @@ var render = function() {
       _c("img", {
         staticClass: "img-fluid",
         attrs: { src: "/images/banner/home/banner_4.jpg", alt: "Banner 4" }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/images/banner/home/banner_5.jpg", alt: "Banner 5" }
       })
     ]
   )
