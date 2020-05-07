@@ -203,7 +203,7 @@ class CheckoutController extends Controller
             'senderAreaCode' => substr(auth()->user()->contacts->first()->phone_1, 0, 2),
             'senderPhone' => substr(auth()->user()->contacts->first()->phone_1, 2, strlen(auth()->user()->contacts->first()->phone_1)),
             // 'senderEmail' => auth()->user()->email,
-            'senderEmail' => 'comprador.teste@sandbox.pagseguro.com.br',
+            'senderEmail' => (env('APP_ENV') == 'local') ? 'comprador.teste@sandbox.pagseguro.com.br' : auth()->user()->email,
             'senderHash' => request()->_hash,
             'shippingAddressRequired' => 'true',
             'shippingAddressStreet' => $address->street_name,

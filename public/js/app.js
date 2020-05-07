@@ -7285,8 +7285,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -60860,22 +60858,14 @@ var render = function() {
               ]
             ),
             _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "tab-pane fade",
-                attrs: {
-                  id: "v-pills-credit",
-                  role: "tabpanel",
-                  "aria-labelledby": "v-pills-credit-tab"
-                }
-              },
-              [
-                _vm._v(
-                  "\n                    Cartão de Crédito\n                "
-                )
-              ]
-            ),
+            _c("div", {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "v-pills-credit",
+                role: "tabpanel",
+                "aria-labelledby": "v-pills-credit-tab"
+              }
+            }),
             _vm._v(" "),
             _c("div", {
               staticClass: "tab-pane fade",
@@ -60929,7 +60919,7 @@ var staticRenderFns = [
           _c(
             "a",
             {
-              staticClass: "nav-link",
+              staticClass: "nav-link disabled",
               attrs: {
                 id: "v-pills-credit-tab",
                 "data-toggle": "pill",

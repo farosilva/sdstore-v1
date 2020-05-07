@@ -36,7 +36,7 @@ class ProductVariant extends Model
 
     public function getNameAltAttribute()
     {
-        return $this->products->name.' '.$this->infos->weight.$this->infos->unit;
+        return $this->products->name.' '.($this->infos->weight/(($this->infos->qtde_pack == 0) ? 1 : $this->infos->qtde_pack)).$this->infos->unit;
     }
 
     public function getNameLinkAttribute()

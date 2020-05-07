@@ -4,7 +4,7 @@
             <div class="col-3">
                 <div class="nav flex-column nav-pills nav-payments" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link active" id="v-pills-barcode-tab" data-toggle="pill" href="#v-pills-barcode" role="tab" aria-controls="v-pills-barcode" aria-selected="true">Boleto</a>
-                    <a class="nav-link" id="v-pills-credit-tab" data-toggle="pill" href="#v-pills-credit" role="tab" aria-controls="v-pills-credit" aria-selected="false">Crédito</a>
+                    <a class="nav-link disabled" id="v-pills-credit-tab" data-toggle="pill" href="#v-pills-credit" role="tab" aria-controls="v-pills-credit" aria-selected="false">Crédito</a>
                     <a class="nav-link disabled" id="v-pills-debit-tab" data-toggle="pill" href="#v-pills-debit" role="tab" aria-controls="v-pills-debit" aria-selected="false">Débito</a>
                 </div>
             </div>
@@ -28,9 +28,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-credit" role="tabpanel" aria-labelledby="v-pills-credit-tab">
-                        Cartão de Crédito
-                    </div>
+                    <div class="tab-pane fade" id="v-pills-credit" role="tabpanel" aria-labelledby="v-pills-credit-tab"></div>
                     <div class="tab-pane fade" id="v-pills-debit" role="tabpanel" aria-labelledby="v-pills-debit-tab"></div>
                 </div>
             </div>

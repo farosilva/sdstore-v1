@@ -14,7 +14,7 @@
     <div class="product-vertical-bottom">
         <div class="product-vertical-infos-content">
             <div class="product-name mb-1">
-                <span class="text-second font-panton-bold">{{ $product->name }}</span>
+                <span class="text-second font-panton-bold">{{ $product->name_alt }}</span>
             </div>
             <div class="product-info d-flex align-items-center justify-content-around">
                 <div class="product-details-pack">

@@ -12,7 +12,7 @@ $factory->define(User::class, function (Faker $faker) {
         'short_name' => $first_name.' '.$last_name,
         'email' => mb_strtolower($first_name.'.'.$last_name.'@exemple.com'),
         'type' => 'F',
-        'cpf_cnpj' => $faker->unique()->numberBetween(10000000000, 99999999999),
+        'cpf_cnpj' => preg_replace('/\D/', '', $faker->unique()->cpf),
         'password' => Hash::make('password')
     ];
 });
